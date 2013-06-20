@@ -50,11 +50,11 @@ Irssi::settings_add_bool($IRSSI{'name'}, 'xmpp_show_privmsg', 1);
 Irssi::settings_add_bool($IRSSI{'name'}, 'xmpp_show_hilight', 1);
 Irssi::settings_add_bool($IRSSI{'name'}, 'xmpp_show_notify', 1);
 Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_pass', 'password');
-Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_server', 'localhost');
-Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_user', 'irssi');
-Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_domain', undef);
-Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_recv', 'noone');
-Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_res', '');
+Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_server', 'talk.google.com');
+Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_user', 'firstname.lastname');
+Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_domain', 'tieto.com');
+Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_recv', undef);
+Irssi::settings_add_str($IRSSI{'name'}, 'xmpp_notify_res', 'irc');
 Irssi::settings_add_bool($IRSSI{'name'}, 'xmpp_notify_tls', 1);
 Irssi::settings_add_int($IRSSI{'name'}, 'xmpp_notify_port', 5222);
 
