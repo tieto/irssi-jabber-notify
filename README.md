@@ -1,6 +1,11 @@
 irssi-jabber-notify
 ===================
 
+**This particular fork for usage in Tieto is now unmaintained.**
+
+*If someone in Tieto steps up to maintain it, please remove this note.*
+
+
 My Jabber/XMPP notification script forked from @kreneskyp
 
 This script now also supports GTalk(Hangouts) and other multi-domain
